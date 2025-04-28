@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Lustria&display=swap"
+      rel="stylesheet"
+    />
+    <title>The Oatmeal Page</title>
+    <link rel="icon" type="x-icon" href="images/favicon.ico" />
+  </head>
+  <body style="font-family: 'Lora', 'Lustria', sans-serif; margin: 20px">
+    <header>
+    <!--Navigation-->
+    <nav>
+      <a href>
+        <img src="images/wixel _oat.webp"
+          alt="Oatmeal Logo"
+          style="width: 100px; height: auto; border-radius: 10px; margin-right: 20px;">
+      </a>
+        <li style="display: inline; margin-right: 20px">
+          <a href="#Info">Info</a>
+        </li>
+        <li style="display: inline; margin-right: 20px">
+          <a href="#about">About</a>
+        </li>
+        <li style="display: inline; margin-right: 20px">
+          <a href="#contact">Contact</a>
+        </li>
+    </nav>
+    <hr>
+    </header>
+    <h1 style="font-size: 450%; color: chocolate;">The Oatmeal Page</h1>
+    <a href="#description" title="What is Oatmeal?">
+    <img
+      src="images/oat01.jpg"
+      alt="Oatmeal Logo"
+      style="width: auto; height: 200px; border-radius: 10px"
+    />
+    </a>
+    <a href="#list of toppings" title="List of toppings">
+    <img
+      src="images/oat02.jpg"
+      alt="Oatmeal Logo"
+      style="width: auto; height: 200px; border-radius: 10px"
+    />
+  </a>
+    <img
+      src="images/oat03.jpg"
+      alt="Oatmeal Logo"
+      style="width: auto; height: 200px; border-radius: 10px"
+    />
+    <img
+      src="images/oat04.jpg"
+      alt="Oatmeal Logo"
+      style="width: auto; height: 200px; border-radius: 10px"
+    />
+    <p id="description">The favorite breakfast for millions of people worldwide</p>
+    <!--List of toppings-->
+<hr>  
+    <p style="font-size: 120%;" id="list of toppings">List of toppings:</p>
+    <ul>
+      <li>Bananas</li>
+      <li>Honey</li>
+      <li>Cinnamon</li>
+      <li>Nuts</li>
+      <li>Chocolate chips</li>
+      <li>Strawberries</li>
+      <li>Blueberries</li>
+      <li>Peanut butter</li>
+      <li>Almonds</li>
+      <li>Raisins</li>
+    </ul>
+    <hr>
+    <table>
+    <colgroup>
+    <col span="1" style="border: 1px solid black; background-color: antiquewhite; border-collapse: collapse">
+    <col span="1" style="border: 1px solid black; background-color: rgb(219, 188, 146); border-collapse: collapse">
+    </colgroup>
+
+      <caption style="font-size: 120%; text-transform: uppercase ;">Nutrition values</caption>
+      <tr>
+        <th>Topping</th>
+        <th>Calories</th>
+      </tr>
+      <tr>
+        <td>Bananas</td>
+        <td>105</td>
+      </tr>
+      <tr>
+        <td>Honey</td>
+        <td>64</td>
+      </tr>
+      <tr>
+        <td>Cinnamon</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Nuts</td>
+        <td>200</td>
+      </tr>
+      <tr>
+        <td>Chocolate chips</td>
+        <td>150</td>
+      </tr>
+      <tr>
+        <td>Strawberries</td>
+        <td>49</td>
+      </tr>
+      <tr>
+        <td>Blueberries</td>
+        <td>57</td>
+      </tr>
+      <tr>
+        <td>Peanut butter</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>Almonds</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>Raisins</td>
+        <td>108</td>
+      </tr>
+    </table>
+    <label for="toppings">Whats your favorite topping?</label>
+    <select name="toppings" id="toppings">
+    <optgroup label="toppings">
+      <option value="Bananas">Bananas</option>
+      <option value="Honey">Honey</option>
+      <option value="Cinnamon">Cinnamon</option>
+      <option value="Nuts">Nuts</option>
+      <option value="Chocolate chips">Chocolate chips</option>
+      <option value="Strawberries">Strawberries</option>
+      <option value="Blueberries">Blueberries</option>
+      <option value="Peanut butter">Peanut butter</option>
+      <option value="Almonds">Almonds</option>
+      <option value="Raisins">Raisins</option><label for="toppings">whats your favorite topping?</label>
+    <!--Click on pic-->
+    </optgroup>
+  </select>
+    <hr>
+    <p>Click on <b>Oat</b> in the image below:</p>
+    <img src="images/oat_click .jpg" alt="Oatmeal Click" usemap="#oatmap" style="width: 300px;  height: auto; border-radius: 10px"/>
+    <map name="oatmap" id="oatmap">
+      <area shape="circle" coords="150,260,180" a href="#list of toppings" alt="List of toppings"/>
+      </map>
+      <hr>
+    <!--Health benefits-->
+      <p>
+        Health benefits of oatmeal:
+      </p>
+      <blockquote cite="https://en.wikipedia.org/wiki/Oatmeal">A 2023 review found <em>oat consumption</em> can significantly sweelower blood pressure.</blockquote>
+      <p>Oatmeal is best served <del>salty</del> sweet. What your preferred sweetness?</p>
+      <input type="range" name="sweet" min="1" max="100" value="50" style="width: 200px; height: 20px; border-radius: 5px; background-color: lightgray; color: rgb(0, 0, 0); font-size: 16px;">
+      <label for="salty">Salty &gt Sweet</label>
+      <input type="button" name="Submit" id="Submit" value="Submit" style="width: 100px; height: 30px; border-radius: 5px; background-color: rgb(230, 220, 173); color: black; border-color: chocolate; font-size: 16px;">
+      <hr>
+    <!--Forms-->
+    <p>Sign up for our newsletter! (press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy)</p>
+    <form action="https://www.example.com/submit" method="post">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br>
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" /><br>
+      <label for="date">Date:</label><br>
+
+      <input type="date" id="date" name="date" />
+      <input type="submit" value="Submit" style="width: 100px; height: 30px; border-radius: 5px; background-color: rgb(230, 220, 173); color: black; border-color: chocolate; font-size: 16px;">
+    </form>
+    <hr>
+    <!--Contact form-->
+    <footer>
+      <p style="text-align: center; font-size: 12px">
+        &copy; 2025 The Oatmeal Page. All rights reserved.
+      For more information, visit
+      <a href="https://www.oatmeal.com">The Oatmeal</a>.
+      </p>
+      <p >
+        <address style="text-align: center; font-size: 12px">by <a href="mailto:pr@mail.com">PR</a><br>
+        Visit us at: <br>
+        Big City <br>
+        Small Street 1
+        </address>
+      </p>
+      <p style="text-align: center; font-size: 12px">
+        <a href="https://www.example.com/privacy-policy">Privacy Policy</a>
+      </p>
+    </footer>
+  </body>
+</html> 
